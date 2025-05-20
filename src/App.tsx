@@ -6,7 +6,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<KanbanBoard/>} />
-        <Route path='/login' element={<Login />} />
+        {/* <Route path='/login' element={<Login />} /> */}
       </Routes>
     </Router>
   );
